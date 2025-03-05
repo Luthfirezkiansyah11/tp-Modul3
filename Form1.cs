@@ -14,17 +14,16 @@ namespace tp_Modul3
         // Event untuk Button click
         private void button1_Click(object sender, EventArgs e)
         {
-            // Mengambil input dari TextBox dan memastikan tidak kosong
-            string namaPraktikan = textBox1.Text.Trim(); // Trim untuk menghilangkan spasi kosong
+            string namaPraktikan = textBox1.Text.Trim();
 
             // Tampilkan output di Label
-            if (!string.IsNullOrEmpty(namaPraktikan)) // Cek apakah input tidak kosong
+            if (!string.IsNullOrEmpty(namaPraktikan)) 
             {
-                labelOutput.Text = "Halo " + namaPraktikan;  // Menampilkan hasil output
+                labelOutput.Text = "Halo " + namaPraktikan; 
             }
             else
             {
-                labelOutput.Text = "Silakan masukkan nama praktikan.";  // Pesan jika input kosong
+                labelOutput.Text = "Silakan masukkan nama praktikan."; 
             }
         }
 
