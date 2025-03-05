@@ -86,6 +86,6 @@
 
         private Button button1;
         private TextBox textBox1;
-        private Label labelOutput;  // Label untuk output
+        private Label labelOutput;
     }
 }
